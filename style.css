@@ -218,7 +218,7 @@ section {
   justify-content: space-between;
 }
 .page__profile_content{
-  max-width: 640px;
+  max-width: 1000px;
 }
 .page__profile__wrapper img {
   max-width: 32vw;
