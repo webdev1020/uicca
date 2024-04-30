@@ -355,7 +355,9 @@ footer {
   color: var(--color-black);
 
 }
-
+section#shadow-host-companion {
+  padding: unset;
+}
 .footer-logo {
   gap: 30px;
   display: flex;
