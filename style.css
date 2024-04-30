@@ -216,7 +216,7 @@ section {
   column-gap: 120px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 }
 .page__profile_content{
   max-width: 800px;
