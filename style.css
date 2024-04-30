@@ -308,7 +308,7 @@ color: #fff;
 
 .explore--card img {
   margin: 0 0 40px;
-  /* max-height: 275px; */
+  max-height: 415px;
   width: 100%;
   object-fit: cover;
 }
