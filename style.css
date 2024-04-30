@@ -172,7 +172,7 @@ section {
   height: calc(100vh - 176px);
 }
 .page__banner__text {
-  max-width: 800px;
+  max-width: 1000px;
 }
 .page__banner h1 {
   margin: 0 0 35px;
