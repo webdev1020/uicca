@@ -96,10 +96,11 @@ h6 {
   font-weight: normal;
 }
 h1 {
-  font-size: 7rem;
+  font-size: 5rem;
+  line-height: 66px;
+
   font-weight: 900;
   text-transform: uppercase;
-  line-height: 86px;
   color: var(--color-white);
   margin: 0;
 }
@@ -172,10 +173,10 @@ section {
   height: calc(100vh - 176px);
 }
 .page__banner__text {
-  max-width: 800px;
+  max-width: 1000px;
 }
 .page__banner h1 {
-  margin: 0 0 35px;
+  margin: 0 0 20px;
 }
 
 .page__banner p {
@@ -340,7 +341,7 @@ color: #fff;
 /* Keep me posted */
 
 .page__keep-me-posted {
-  background-color: var(--color-secondary);
+  background-color: var(--color-primary);
   padding: 20px;
   text-align: center;
   font-size: 2rem;
