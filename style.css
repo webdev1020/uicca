@@ -96,10 +96,10 @@ h6 {
   font-weight: normal;
 }
 h1 {
-  font-size: 8rem;
+  font-size: 7rem;
   font-weight: 900;
   text-transform: uppercase;
-  line-height: 96px;
+  line-height: 86px;
   color: var(--color-white);
   margin: 0;
 }
@@ -190,10 +190,10 @@ section {
 }
 
 .page__banner--logo {
-  width: 187px;
+  width: 200px;
   position: absolute;
   top: 0;
-  right: 58px;
+  left: 58px;
 }
 
 .page__banner .container {
@@ -341,10 +341,10 @@ color: #fff;
 
 .page__keep-me-posted {
   background-color: var(--color-secondary);
-  padding: 45px;
+  padding: 20px;
   text-align: center;
-  font-size: 3rem;
-  line-height: 40px;
+  font-size: 2rem;
+  line-height: 30px;
   color: var(--color-white);
   font-family: var(--font-text);
   text-transform: unset;
@@ -352,7 +352,7 @@ color: #fff;
 
 footer {
   padding: 55px 80px;
-  background-color: #E6EDF1;
+  background-color: #fff;
   color: var(--color-black);
 
 }
@@ -551,8 +551,9 @@ section#shadow-host-companion {
 
   }
   .page__banner h1{
-font-size:7rem ;
-line-height: 77px;
+font-size:5rem ;
+line-height: 57px;
+margin-bottom: 20px;
     
   }
   .page__banner p {
