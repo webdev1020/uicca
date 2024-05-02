@@ -181,8 +181,8 @@ section {
 
 .page__banner p {
   font-weight: 300;
-  font-size: 20px;
-  line-height: 26px;
+  font-size: 2rem;
+  line-height: 30px;
   margin-bottom: 20px;
 }
 .page__banner p:last-child {
@@ -324,8 +324,8 @@ color: #fff;
 }
 
 .explore--card p {
-  font-size: 2.2rem;
-  line-height: 27px;
+  font-size: 2rem;
+  line-height: 30px;
   font-weight: 300;
   color: rgba(0, 0, 0, 0.6); 
   margin-bottom: 3rem;
