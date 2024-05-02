@@ -194,7 +194,7 @@ section {
   width: 200px;
   position: absolute;
   top: 0;
-  left: 58px;
+  left: 120px;
 }
 
 .page__banner .container {
@@ -345,7 +345,7 @@ color: #fff;
   padding: 20px;
   text-align: center;
   font-size: 2rem;
-  line-height: 30px;
+  line-height: 28px;
   color: var(--color-white);
   font-family: var(--font-text);
   text-transform: unset;
@@ -573,7 +573,7 @@ margin-bottom: 20px;
   .page__banner--logo {
     width: 120px;
     height: auto;
-    right: 30px;
+    left: 30px;
   }
   .copyright-block{
     flex-direction: column;
