@@ -367,7 +367,7 @@ section#shadow-host-companion {
   gap: 30px;
   display: flex;
   flex-direction: column;
-  max-width: 352px;
+  /* max-width: 352px; */
 
 }
 
