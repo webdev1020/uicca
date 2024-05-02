@@ -354,6 +354,9 @@ footer {
   padding: 55px 80px;
   background-color: #fff;
   color: var(--color-black);
+  display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 
 }
 section#shadow-host-companion {
@@ -386,7 +389,7 @@ section#shadow-host-companion {
 
 } */
 .footer-copyright {
-  margin-top: 52px;
+  /* margin-top: 52px; */
   font-weight: 400;
   font-size: 1.3rem;
   line-height: 1.3;
@@ -531,6 +534,10 @@ section#shadow-host-companion {
 }
 
 @media (max-width: 768px) {
+  footer{
+    flex-direction: column;
+    align-items: center;
+  }
   section,
   footer {
     padding: 50px 30px;
@@ -570,6 +577,10 @@ margin-bottom: 20px;
   .copyright-block{
     flex-direction: column;
     gap: 15px;
+    margin-top: 30px;
+  }
+  .footer-logo p{
+    text-align: center;
   }
 }
 
