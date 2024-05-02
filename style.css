@@ -171,9 +171,11 @@ section {
   flex-direction: column;
   justify-content: flex-end;
   height: calc(100vh - 176px);
+  padding-top: 100px;
+
 }
 .page__banner__text {
-  max-width: 1000px;
+  max-width: 1200px;
 }
 .page__banner h1 {
   margin: 0 0 20px;
@@ -508,7 +510,7 @@ section#shadow-host-companion {
 /* Responsive */
 @media (min-width: 1700px) {
   .page__banner__text {
-    max-width: 1000px;
+    max-width: 1200px;
 }
 }
 @media (max-width: 1068px) {
@@ -523,7 +525,7 @@ section#shadow-host-companion {
   }
 
   .page__banner {
-    height: calc(100vh - 100px);
+    height: calc(100vh - 60px);
   }
 }
 
