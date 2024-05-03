@@ -97,8 +97,7 @@ h6 {
 }
 h1 {
   font-size: 5rem;
-  line-height: 66px;
-
+    line-height: 54px;
   font-weight: 900;
   text-transform: uppercase;
   color: var(--color-white);
@@ -170,10 +169,12 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  height: calc(100vh - 176px);
+  min-height: calc(100vh - 50px);
+  padding-top: 180px;
+
 }
 .page__banner__text {
-  max-width: 1000px;
+  max-width: 1200px;
 }
 .page__banner h1 {
   margin: 0 0 20px;
@@ -508,7 +509,7 @@ section#shadow-host-companion {
 /* Responsive */
 @media (min-width: 1700px) {
   .page__banner__text {
-    max-width: 1000px;
+    max-width: 1200px;
 }
 }
 @media (max-width: 1068px) {
@@ -523,8 +524,12 @@ section#shadow-host-companion {
   }
 
   .page__banner {
-    height: calc(100vh - 100px);
+    height: calc(100vh - 60px);
   }
+  .page__banner--logo {
+
+    left: 60px;
+}
 }
 
 @media (max-width: 991px) {
